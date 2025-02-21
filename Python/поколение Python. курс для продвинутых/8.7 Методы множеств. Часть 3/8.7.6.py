@@ -1,0 +1,5 @@
+set_1 = set([int(x) for x in input().split()])
+set_2 = set([int(x) for x in input().split()])
+set_3 = set([int(x) for x in input().split()])
+start_set = set([x for x in range(11)])
+print(*sorted(start_set - set_1 - set_2 - set_3))
