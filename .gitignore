@@ -180,4 +180,5 @@ cython_debug/
 test_task
 
 # Прочие файлы
-token.py
+tg_bot_token.py
+test.py
